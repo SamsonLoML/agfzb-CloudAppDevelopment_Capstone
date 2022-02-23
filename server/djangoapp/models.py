@@ -76,7 +76,7 @@ class DealerReview:
         self.purchase_make = ""
         self.purchase_model = ""
         self.purchase_year = ""
-        self.sentiment = ""
+        self.sentiment = sentiment
         self.id = ""
 
     def __str__(self):
